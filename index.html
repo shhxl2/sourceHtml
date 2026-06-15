@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>실습 과제 - 메인 페이지 만들기</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 290px);
+            gap: 5px;
+            row-gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            justify-content: center;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            height: 90px; 
+            padding-top: 3px;
+        }
+        .card h3 {
+            margin: 0;
+            font-size: 1.1em;
+            line-height: 1.2;
+        }
+        .card p {
+            margin: 5px 0 0 0;
+            color: #000000;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>심하힘의 홈페이지</h1>
+
+    <div class="container">
+        <div class="card"><h3>유한대학교 컴퓨터공학과<br>게임콘텐츠전공</h3><p>클릭하세요~</p></div>
+        <div class="card"><h3>심하힘의 홈페이지</h3><p>클릭하세요~</p></div>
+        <div class="card"><h3>z-index 실습</h3><p>클릭하세요~</p></div>
+        
+        <div class="card"><h3>티몬 홈페이지</h3><p>클릭하세요~</p></div>
+        <div class="card"><h3>티몬 홈페이지</h3><p>클릭하세요~</p></div>
+        <div class="card"><h3>티몬 홈페이지</h3><p>클릭하세요~</p></div>
+        
+        <div class="card"><h3>티몬 홈페이지</h3><p>클릭하세요~</p></div>
+        <div class="card"><h3>티몬 홈페이지</h3><p>클릭하세요~</p></div>
+        <div class="card"><h3>티몬 홈페이지</h3><p>클릭하세요~</p></div>
+    </div>
+</body>
+</html>
